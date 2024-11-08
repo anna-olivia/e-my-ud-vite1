@@ -25,7 +25,7 @@ function PostDetails() {
     <Modal>
       <main className={classes.details}>
         <p className={classes.author}>{post.author}</p>
-        <p className={classes.text}>{post.body}</p>
+        <p className={classes.text}>{post.message}</p>
       </main>
     </Modal>
   );
@@ -34,7 +34,7 @@ function PostDetails() {
 export default PostDetails;
 
 export async function loader({params}) {
-  const response = await fetch('http://localhos:8080/posts/' + params.id );
+  const response = await fetch('http://localhost:8080/posts/' + params.id );
     const resData = await response.json();
     return resData.post;
 }

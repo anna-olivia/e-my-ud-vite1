@@ -20,7 +20,7 @@
 
 - Validierung der Einträge
 - Backend mit Datenbank Support
-- loader()
+
 
 ## Projektstruktur
 
@@ -44,13 +44,15 @@ e-my-ud-vite1/
 │   │   ├── Modal.jsx
 │   │   ├── Post.jsx
 │   │   ├── Post.module.css
+│   │   ├── PostDetail.css
+│   │   ├── PostDetail.module.css
 │   │   ├── PostsList.jsx
 │   |   └── PostsList.module.css
 |   |
 │   ├── routes/
 │   │   ├── NewPost.jsx
 │   │   ├── NewPost.module.css
-│   │   ├── Post.jsx
+│   │   ├── Posts.jsx
 │   |   └── RootLayout.jsx
 │   |
 |   |

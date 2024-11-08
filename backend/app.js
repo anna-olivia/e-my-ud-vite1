@@ -18,8 +18,6 @@ app.use((req, res, next) => {
 
 app.get('/posts', async (req, res) => {
   const storedPosts = await getStoredPosts();
-  // await new Promise((resolve, reject) => setTimeout(() => resolve(), 1500));
-  // nachdem useEffekt() genutzt wurde, hier die new Promise nutzen damit backend ein delay bekommt für demo --> aber halt damit user nicht keine einträge liest sondern ein ladespinner oder ähnliches -> dafür in frontend neuen useState() in PostLists.jsx - rausnehmen wenn react router loader() genutzt wird - wenn wieder langsames backend simuliert werden soll dann rein, aber mit anderer loader handling
   res.json({ posts: storedPosts });
 });
 
