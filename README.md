@@ -1,4 +1,4 @@
-# Demo Single-Page-App für Pinnwandeinträge - jetzt mit React Router
+# SPA für Pinnwandeinträge - mit React Router
 
  In dieser WebApp können Einträge über eine Modulkomponente erstellt und auf der Pinnwand angezeigt werden (mit minimalem Backendsupport)
 
@@ -12,7 +12,8 @@
   - React Router mit {loader} und {action}
   
 
-- **Backend:** [²]
+- **Backend:** [²] 
+  - Demo
   - Node.js
   - Express
 
