@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
 import Posts, {loader as postsLoader} from './routes/Posts';
 import NewPost from './routes/NewPost';
 import RootLayout from './routes/RootLayout';

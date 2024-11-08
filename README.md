@@ -10,8 +10,7 @@
 - **Frontend:**
   - React + Vite [¹]
   - React Router
-  - useState()
-  - useEffect()
+  
 
 - **Backend:** [²]
   - Node.js
