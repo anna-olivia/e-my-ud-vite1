@@ -10,7 +10,10 @@ const PostsList = () => {
         <ul className={styles.posts}>
           {currentPosts.map((post) => (
             <Post
-              key={post.message}
+              key={post.id}
+              // bessere identifikation ist dann hier auh die id statt message
+              id={post.id}
+              // jetzt besitzen einzelne einträge id's siehe Post.jsx
               author={post.author}
               message={post.message}
             />

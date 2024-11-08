@@ -7,11 +7,15 @@
   animation: animate-in 1s ease-out forwards;
 }
 
+.post a {
+  text-decoration: none;
+  color: var(--deep-blue);
+  
+}
+
 .author {
   font-size: 0.8rem;
   font-weight: bold;
-  color: var(--deep-blue);
-
   margin: 0;
   text-transform: uppercase;
 }
@@ -20,7 +24,7 @@
   white-space: pre-wrap;
   font-size: 1.25rem;
   margin: 0.25rem 0 0 0;
-  color: var(--deep-blue);
+
   font-style: italic;
 }
 
