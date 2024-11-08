@@ -47,9 +47,14 @@
   .actions a {
     background-color: transparent;
     text-decoration: none;
-    color: #fff;
+    color: var(--complementary-color);
+    border: 1px solid var(--complementary-color);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
   }
   
   .actions a:hover {
-    color: #fff;
+    color: var(--blue-green);
+
+    border: 1px solid var(--blue-green);
   }

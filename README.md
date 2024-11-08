@@ -9,7 +9,7 @@
 
 - **Frontend:**
   - React + Vite [¹]
-  - React Router
+  - React Router mit {loader} und {action}
   
 
 - **Backend:** [²]
