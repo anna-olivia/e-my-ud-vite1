@@ -1,4 +1,4 @@
-# Demo Single-Page-App für Pinnwandeinträge 
+# Demo Single-Page-App für Pinnwandeinträge - jetzt mit React Router
 
  In dieser WebApp können Einträge über eine Modulkomponente erstellt und auf der Pinnwand angezeigt werden (mit minimalem Backendsupport)
 
@@ -9,6 +9,7 @@
 
 - **Frontend:**
   - React + Vite [¹]
+  - React Router
   - useState()
   - useEffect()
 
@@ -20,11 +21,7 @@
 
 - Validierung der Einträge
 - Backend mit Datenbank Support
-
-## Ausblick
-
-- die SPA könnte als Teil eines Forums genutzt werden hier wäre React Router eine Überlegung
-
+- loader()
 
 ## Projektstruktur
 
@@ -32,7 +29,7 @@
 e-my-ud-vite0/
 ├── backend/
 │   ├── data/
-|   |   |── posts.js
+|   |   └── post.js   
 |   |     
 |   ├── app.js   
 |   |   
@@ -46,10 +43,18 @@ e-my-ud-vite0/
 │   │   ├── MainHeader.jsx
 │   │   ├── MainHeader.module.css
 │   │   ├── Modal.jsx
-│   │   ├── ...
+│   │   ├── Post.jsx
+│   │   ├── Post.module.css
 │   │   ├── PostsList.jsx
 │   |   └── PostsList.module.css
-|   ├── App.jsx
+|   |
+│   ├── routes/
+│   │   ├── NewPost.jsx
+│   │   ├── NewPost.module.css
+│   │   ├── Post.jsx
+│   |   └── RootLayout.jsx
+│   |
+|   |
 |   ├── index.css
 |   └── main.jsx
 |

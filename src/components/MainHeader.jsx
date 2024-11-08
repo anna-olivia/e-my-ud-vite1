@@ -1,7 +1,7 @@
 import { MdPostAdd, MdBeachAccess } from "react-icons/md";
 import styles from "./MainHeader.module.css";
 import { Link } from "react-router-dom";
-const MainHeader = ({ onCreatePost }) => {
+const MainHeader = () => {
   return (
     <header className={styles.header}>
       <h1 className={styles.logo}>
@@ -10,7 +10,7 @@ const MainHeader = ({ onCreatePost }) => {
         </span>
         <span className={styles.heading}> Annas Pinnwand</span>
       </h1>
-      <div> <Link to="/create-post" className={styles.button} >
+      <div> <Link to="/neu" className={styles.button} >
           <MdPostAdd size={18} />
           Neuer Eintrag
         </Link>
